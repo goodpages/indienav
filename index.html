@@ -1,0 +1,1061 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+<meta charset="utf-8">
+<meta http-equiv='x-dns-prefetch-control' content='on'>
+
+
+
+<link rel="preconnect" href="https://lf6-cdn-tos.bytecdntp.com" crossorigin>
+<link rel="dns-prefetch" href="https://lf6-cdn-tos.bytecdntp.com">
+<link href="/js/config.js" as="script">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>独立开发网址导航</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link rel="shortcut icon" href="/images/logo.png">
+
+<!-- / FB Open Graph -->
+<meta property="og:title" content="独立开发网址导航">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://example.com/">
+<meta property="og:description" content="">
+
+
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+
+
+
+  <script defer src="/js/smoothscroll.min.js"></script>
+
+
+<script defer src="/js/app.js"></script>
+
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+<body>
+  
+<script src="/js/config.js"></script>
+
+  <svg style="position: absolute; width: 0; height: 0;" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="svg-tag" viewBox="0 0 32 32">
+    <path d="M31.391,13.88l-5-8C25.661,4.711,24.379,4,23,4H4C1.791,4,0,5.791,0,8v16c0,2.209,1.791,4,4,4h19    c1.379,0,2.66-0.711,3.391-1.881l5-8C32.203,16.824,32.203,15.177,31.391,13.88z M29.695,17.059l-5,8.002    C24.328,25.649,23.693,26,23,26H4c-1.103,0-2-0.898-2-2V8c0-1.103,0.897-2,2-2h19c0.693,0,1.328,0.352,1.695,0.939l5,8C30.098,15.584,30.098,16.416,29.695,17.059z"/>
+    <path d="M23,13c-1.658,0-3,1.343-3,3s1.342,3,3,3c1.656,0,3-1.344,3-3C26,14.343,24.656,13,23,13z     M23,18.001c-1.105,0-2-0.896-2-2s0.895-2,2-2c1.104,0,2,0.896,2,2C25,17.104,24.104,18.001,23,18.001z"/>
+  </symbol>
+</svg>
+  <div id="backdrop"></div>
+
+  <div class="sidebar-menu">
+  <div class="logo flex-v-center h-center">
+    <a href="/">
+      <img src="/images/logo.png" class="logo-expanded" style="border-radius:40px;" width="40"/>
+      <img src="/images/logo.png" class="logo-collapsed" style="border-radius:40px;" width="40"/>
+    </a>
+  </div>
+
+  <ul id="main-menu" class="main-menu">
+    <li>
+          <a href="/#common" role="anchor">
+            <i class="menu-icon far fa-star"></i><span class="menu-title">常用网站</span>
+          </a>
+        </li><li class="has-sub">
+          <a class="fas fa-angle-right">
+            <i class="menu-icon fas fa-desktop"></i><span class="menu-title">IT</span>
+          </a>
+          <ul>
+        <li>
+          <a href="/#tech" role="anchor">
+            <i class="menu-icon fas fa-flushed"></i><span class="menu-title">技术</span>
+          </a>
+        </li><li>
+          <a href="/#secure" role="anchor">
+            <i class="menu-icon fas fa-bug"></i><span class="menu-title">安全</span>
+          </a>
+        </li></ul></li><li class="has-sub">
+          <a class="fas fa-angle-right">
+            <i class="menu-icon fas fa-cloud"></i><span class="menu-title">大模型</span>
+          </a>
+          <ul>
+        <li>
+          <a href="/#aiimage" role="anchor">
+            <i class="menu-icon fas fa-image"></i><span class="menu-title">AI生图</span>
+          </a>
+        </li><li>
+          <a href="/#ai3d" role="anchor">
+            <i class="menu-icon fas fa-cubes"></i><span class="menu-title">AI生3D</span>
+          </a>
+        </li><li>
+          <a href="/#aicreate" role="anchor">
+            <i class="menu-icon fas fa-binoculars"></i><span class="menu-title">AI创作</span>
+          </a>
+        </li></ul></li><li class="has-sub">
+          <a class="fas fa-angle-right">
+            <i class="menu-icon fas fa-leaf"></i><span class="menu-title">超级个体</span>
+          </a>
+          <ul>
+        <li>
+          <a href="/#indie" role="anchor">
+            <i class="menu-icon fas fa-user"></i><span class="menu-title">独立开发</span>
+          </a>
+        </li><li>
+          <a href="/#idea" role="anchor">
+            <i class="menu-icon fas fa-user"></i><span class="menu-title">创意&想法</span>
+          </a>
+        </li><li>
+          <a href="/#ad" role="anchor">
+            <i class="menu-icon fas fa-sitemap"></i><span class="menu-title">广告&联盟</span>
+          </a>
+        </li><li>
+          <a href="/#buyme" role="anchor">
+            <i class="menu-icon fas fa-coffee"></i><span class="menu-title">赞助</span>
+          </a>
+        </li><li>
+          <a href="/#digital" role="anchor">
+            <i class="menu-icon fas fa-suitcase"></i><span class="menu-title">数字市场</span>
+          </a>
+        </li><li>
+          <a href="/#write" role="anchor">
+            <i class="menu-icon fas fa-book"></i><span class="menu-title">付费写作</span>
+          </a>
+        </li><li>
+          <a href="/#acquiring" role="anchor">
+            <i class="menu-icon fas fa-percent"></i><span class="menu-title">收单</span>
+          </a>
+        </li><li>
+          <a href="/#payment" role="anchor">
+            <i class="menu-icon fas fa-shopping-cart"></i><span class="menu-title">收款</span>
+          </a>
+        </li><li>
+          <a href="/#course" role="anchor">
+            <i class="menu-icon fas fa-id-card"></i><span class="menu-title">课程平台</span>
+          </a>
+        </li><li>
+          <a href="/#depoy" role="anchor">
+            <i class="menu-icon fas fa-certificate"></i><span class="menu-title">免费部署</span>
+          </a>
+        </li></ul></li><li>
+          <a href="/#blog" role="anchor">
+            <i class="menu-icon fas fa-blog"></i><span class="menu-title">个人博客</span>
+          </a>
+        </li><li class="has-sub">
+          <a class="fas fa-angle-right">
+            <i class="menu-icon fas fa-arrow-circle-down"></i><span class="menu-title">资源&素材</span>
+          </a>
+          <ul>
+        <li>
+          <a href="/#freeres" role="anchor">
+            <i class="menu-icon fas fa-gift"></i><span class="menu-title">免费资源</span>
+          </a>
+        </li><li>
+          <a href="/#resshop" role="anchor">
+            <i class="menu-icon fas fa-cubes"></i><span class="menu-title">游戏资源商店</span>
+          </a>
+        </li><li>
+          <a href="/#template" role="anchor">
+            <i class="menu-icon fas fa-cubes"></i><span class="menu-title">模板</span>
+          </a>
+        </li></ul></li><li>
+          <a href="/#video" role="anchor">
+            <i class="menu-icon fas fa-gamepad"></i><span class="menu-title">放松一下</span>
+          </a>
+        </li>
+
+  </ul>
+</div>
+
+
+  <div class="main-content">
+    <header>
+  <div class="banner mobile-banner">
+    <a href="/" class="btn mobile-logo">
+      <img src="/images/logo.png" width="178"/>
+    </a>
+
+    <div class="btn show-setting-banner">
+      <i class="fas fa-cog"></i>
+    </div>
+
+    <div class="btn sidebar-mobile">
+      <i class="fas fa-bars"></i>
+    </div>
+  </div>
+
+  <div class="banner setting-banner mobile-hidden">
+    <div class="btn sidebar-collapse">
+      <i class="fas fa-bars"></i>
+    </div>
+    <div class="btn theme-switcher dropdown flex-v-center">
+      <span class="lable"><i></i></span>
+      <ul class="dropdown-menu">
+        <li value="auto"><i class="fas fa-adjust"></i>跟随系统</li>
+        <li value="light"><i class="fas fa-sun"></i>浅色</li>
+        <li value="dark"><i class="far fa-moon"></i>深色</li>
+      </ul>
+    </div>
+  </div>
+</header>
+    
+<main class="content">
+  
+    
+  <h4 id="common" class="anchor-tag">
+    <svg class="icon">
+      <use xlink:href="#svg-tag"/>
+    </svg>常用网站
+  </h4>
+  <div class="group">
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="https://www.google.com/">
+          <img class="lozad" data-src="https://www.google.com/favicon.ico">
+          <div>
+            <strong class="title">Google</strong>
+            <span class="description">谷歌一下</span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="https://www.baidu.com">
+          <img class="lozad" data-src="https://www.baidu.com/favicon.ico">
+          <div>
+            <strong class="title">百度</strong>
+            <span class="description">百度</span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="https://www.zhihu.com/">
+          <img class="lozad" data-src="https://static.zhihu.com/heifetz/favicon.ico">
+          <div>
+            <strong class="title">知乎</strong>
+            <span class="description">知乎</span>
+          </div>
+        </a>
+      </div>
+    
+  </div>
+
+  <h4 id="tech" class="anchor-tag">
+    <svg class="icon">
+      <use xlink:href="#svg-tag"/>
+    </svg>技术
+  </h4>
+  <div class="group">
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="https://www.cnblogs.com/">
+          <img class="lozad" data-src="https://www.cnblogs.com/favicon.ico">
+          <div>
+            <strong class="title">博客园</strong>
+            <span class="description">博客园</span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="https://www.csdn.net/">
+          <img class="lozad" data-src="https://www.csdn.net/favicon.ico">
+          <div>
+            <strong class="title">CSDN</strong>
+            <span class="description">CSDN</span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="https://www.oschina.net/">
+          <img class="lozad" data-src="https://www.oschina.net/favicon.ico">
+          <div>
+            <strong class="title">开源中国</strong>
+            <span class="description">开源中国</span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="https://www.gameres.com/">
+          <img class="lozad" data-src="https://www.gameres.com/favicon.ico">
+          <div>
+            <strong class="title">GameRes游资网</strong>
+            <span class="description">GameRes游资网</span>
+          </div>
+        </a>
+      </div>
+    
+  </div>
+
+  <h4 id="secure" class="anchor-tag">
+    <svg class="icon">
+      <use xlink:href="#svg-tag"/>
+    </svg>安全
+  </h4>
+  <div class="group">
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="https://www.freebuf.com/">
+          <img class="lozad" data-src="https://www.freebuf.com/favicon.ico">
+          <div>
+            <strong class="title">FreeBuf</strong>
+            <span class="description">安全交流社区</span>
+          </div>
+        </a>
+      </div>
+    
+  </div>
+
+  <h4 id="aiimage" class="anchor-tag">
+    <svg class="icon">
+      <use xlink:href="#svg-tag"/>
+    </svg>AI生图
+  </h4>
+  <div class="group">
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="https://www.holopix.cn/">
+          <img class="lozad" data-src="https://holopix.cn/favicon.ico">
+          <div>
+            <strong class="title">HolopixAI</strong>
+            <span class="description">专为游戏设计而生，2D原画、3D转换。</span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="https://labs.google/fx/zh/tools/image-fx">
+          <img class="lozad" data-src="https://www.google.com/favicon.ico">
+          <div>
+            <strong class="title">Google ImgeFx</strong>
+            <span class="description">谷歌DeepMind基于Imagen 2模型开发的AI图像生成工具</span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="https://www.scenario.com/">
+          <img class="lozad" data-src="https://www.scenario.com/favicon.ico">
+          <div>
+            <strong class="title">scenario</strong>
+            <span class="description">生成角色形象一致性的图像</span>
+          </div>
+        </a>
+      </div>
+    
+  </div>
+
+  <h4 id="ai3d" class="anchor-tag">
+    <svg class="icon">
+      <use xlink:href="#svg-tag"/>
+    </svg>AI生3D
+  </h4>
+  <div class="group">
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="https://www.tripo3d.ai/">
+          <img class="lozad" data-src="https://www.tripo3d.ai/favicon.ico">
+          <div>
+            <strong class="title">tripo3d.ai</strong>
+            <span class="description">3D模型与场景生成器</span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="https://www.meshy.ai/">
+          <img class="lozad" data-src="https://www.meshy.ai/favicon.ico">
+          <div>
+            <strong class="title">meshy.ai</strong>
+            <span class="description">直观的免费AI 3D模型生成器</span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="https://hyper3d.ai/">
+          <img class="lozad" data-src="https://hyper3d.ai/favicon.ico">
+          <div>
+            <strong class="title">hyper3d.ai</strong>
+            <span class="description">Rodin Gen-2生成3D模型</span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="https://plask.ai/">
+          <img class="lozad" data-src="https://plask.ai/favicon.ico">
+          <div>
+            <strong class="title">plask.ai</strong>
+            <span class="description">利用人工智能动作捕捉技术，将任何视频转换为专业的3D动画。</span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="https://meshcapade.com/">
+          <img class="lozad" data-src="https://meshcapade.com/favicon.ico">
+          <div>
+            <strong class="title">meshcapade</strong>
+            <span class="description">集动作捕捉、动作生成和人类理解于一体的人工智能工具包</span>
+          </div>
+        </a>
+      </div>
+    
+  </div>
+
+  <h4 id="aicreate" class="anchor-tag">
+    <svg class="icon">
+      <use xlink:href="#svg-tag"/>
+    </svg>AI创作
+  </h4>
+  <div class="group">
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="https://www.minimaxi.com/">
+          <img class="lozad" data-src="https://www.minimaxi.com/favicon.ico">
+          <div>
+            <strong class="title">MINIMAX</strong>
+            <span class="description">语音大模型，具备文生音、声音</span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="https://www.readkidz.com/">
+          <img class="lozad" data-src="https://www.readkidz.com/favicon.ico">
+          <div>
+            <strong class="title">ReadKidz</strong>
+            <span class="description">绘本制作大模型</span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="https://www.tapnow.ai">
+          <img class="lozad" data-src="https://www.tapnow.ai/favicon.ico">
+          <div>
+            <strong class="title">tapnow.ai</strong>
+            <span class="description">创意短片等创作工具</span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="https://hera.video/">
+          <img class="lozad" data-src="https://hera.video/favicon.ico">
+          <div>
+            <strong class="title">hera.video</strong>
+            <span class="description">人工智能动画设计师</span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="https://gaga.art/">
+          <img class="lozad" data-src="/images/logo.png">
+          <div>
+            <strong class="title">gaga.art</strong>
+            <span class="description">可生成口型精准、表情自然的AI视频</span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="https://www.lovart.ai/">
+          <img class="lozad" data-src="https://www.lovart.ai/favicon.ico">
+          <div>
+            <strong class="title">lovart</strong>
+            <span class="description">自动完成设计流程，从概念到图像、视频、3D</span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="https://www.canva.cn/">
+          <img class="lozad" data-src="https://static.canva.cn/static/images/favicon.ico">
+          <div>
+            <strong class="title">可画</strong>
+            <span class="description">AI搭配模板，让设计与办公简单得超乎想象</span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="https://www.gambo.ai/">
+          <img class="lozad" data-src="https://www.gambo.ai/favicon.ico">
+          <div>
+            <strong class="title">gambo.ai</strong>
+            <span class="description">AI生成游戏</span>
+          </div>
+        </a>
+      </div>
+    
+  </div>
+
+  <h4 id="indie" class="anchor-tag">
+    <svg class="icon">
+      <use xlink:href="#svg-tag"/>
+    </svg>独立开发
+  </h4>
+  <div class="group">
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="https://indienova.com/">
+          <img class="lozad" data-src="https://indienova.com/favicon.ico">
+          <div>
+            <strong class="title">IndieNova</strong>
+            <span class="description">独立游戏开发社区</span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="https://w2solo.com/">
+          <img class="lozad" data-src="https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png">
+          <div>
+            <strong class="title">W2Solo</strong>
+            <span class="description">独立开发交流</span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="https://www.ezindie.com/">
+          <img class="lozad" data-src="https://www.ezindie.com/favicon.ico">
+          <div>
+            <strong class="title">Ezindie</strong>
+            <span class="description">独立变现周刊</span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="https://www.indietools.work/">
+          <img class="lozad" data-src="https://www.indietools.work/favicon.ico">
+          <div>
+            <strong class="title">独立开发工具</strong>
+            <span class="description">发现精选工具与资源，加速您的独立开发之旅</span>
+          </div>
+        </a>
+      </div>
+    
+  </div>
+
+  <h4 id="idea" class="anchor-tag">
+    <svg class="icon">
+      <use xlink:href="#svg-tag"/>
+    </svg>创意&amp;想法
+  </h4>
+  <div class="group">
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="https://www.producthunt.com/">
+          <img class="lozad" data-src="https://www.producthunt.com/favicon.ico">
+          <div>
+            <strong class="title">ProductHunt</strong>
+            <span class="description">专注科技新产品发布的社区平台</span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="https://www.v2ex.com/">
+          <img class="lozad" data-src="https://www.v2ex.com/favicon.ico">
+          <div>
+            <strong class="title">v2ex</strong>
+            <span class="description">面向程序员、极客人群的分享交流社区</span>
+          </div>
+        </a>
+      </div>
+    
+  </div>
+
+  <h4 id="ad" class="anchor-tag">
+    <svg class="icon">
+      <use xlink:href="#svg-tag"/>
+    </svg>广告&amp;联盟
+  </h4>
+  <div class="group">
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="/">
+          <img class="lozad" data-src="/images/logo.png">
+          <div>
+            <strong class="title">AdMob</strong>
+            <span class="description"></span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="/">
+          <img class="lozad" data-src="/images/logo.png">
+          <div>
+            <strong class="title">CJ Affiliate</strong>
+            <span class="description"></span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="/">
+          <img class="lozad" data-src="/images/logo.png">
+          <div>
+            <strong class="title">Hstock</strong>
+            <span class="description">数字商品联盟</span>
+          </div>
+        </a>
+      </div>
+    
+  </div>
+
+  <h4 id="buyme" class="anchor-tag">
+    <svg class="icon">
+      <use xlink:href="#svg-tag"/>
+    </svg>赞助
+  </h4>
+  <div class="group">
+    
+  </div>
+
+  <h4 id="digital" class="anchor-tag">
+    <svg class="icon">
+      <use xlink:href="#svg-tag"/>
+    </svg>数字市场
+  </h4>
+  <div class="group">
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="/">
+          <img class="lozad" data-src="/images/logo.png">
+          <div>
+            <strong class="title">Gumroad</strong>
+            <span class="description"></span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="/">
+          <img class="lozad" data-src="/images/logo.png">
+          <div>
+            <strong class="title">GitHub Sponsors</strong>
+            <span class="description"></span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="/">
+          <img class="lozad" data-src="/images/logo.png">
+          <div>
+            <strong class="title">Hstock</strong>
+            <span class="description"></span>
+          </div>
+        </a>
+      </div>
+    
+  </div>
+
+  <h4 id="write" class="anchor-tag">
+    <svg class="icon">
+      <use xlink:href="#svg-tag"/>
+    </svg>付费写作
+  </h4>
+  <div class="group">
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="/">
+          <img class="lozad" data-src="/images/logo.png">
+          <div>
+            <strong class="title">medium</strong>
+            <span class="description"></span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="/">
+          <img class="lozad" data-src="/images/logo.png">
+          <div>
+            <strong class="title">dev.to</strong>
+            <span class="description"></span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="/">
+          <img class="lozad" data-src="/images/logo.png">
+          <div>
+            <strong class="title">hashnode</strong>
+            <span class="description"></span>
+          </div>
+        </a>
+      </div>
+    
+  </div>
+
+  <h4 id="acquiring" class="anchor-tag">
+    <svg class="icon">
+      <use xlink:href="#svg-tag"/>
+    </svg>收单
+  </h4>
+  <div class="group">
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="/">
+          <img class="lozad" data-src="/images/logo.png">
+          <div>
+            <strong class="title">PayPal</strong>
+            <span class="description"></span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="/">
+          <img class="lozad" data-src="/images/logo.png">
+          <div>
+            <strong class="title">Stripe</strong>
+            <span class="description"></span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="/">
+          <img class="lozad" data-src="/images/logo.png">
+          <div>
+            <strong class="title">Paddle</strong>
+            <span class="description"></span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="/">
+          <img class="lozad" data-src="/images/logo.png">
+          <div>
+            <strong class="title">Creem</strong>
+            <span class="description"></span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="/">
+          <img class="lozad" data-src="/images/logo.png">
+          <div>
+            <strong class="title">Gumroad</strong>
+            <span class="description"></span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="/">
+          <img class="lozad" data-src="/images/logo.png">
+          <div>
+            <strong class="title">BlockATM</strong>
+            <span class="description">Web3支付</span>
+          </div>
+        </a>
+      </div>
+    
+  </div>
+
+  <h4 id="payment" class="anchor-tag">
+    <svg class="icon">
+      <use xlink:href="#svg-tag"/>
+    </svg>收款
+  </h4>
+  <div class="group">
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="/">
+          <img class="lozad" data-src="/images/logo.png">
+          <div>
+            <strong class="title">PingPong</strong>
+            <span class="description"></span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="/">
+          <img class="lozad" data-src="/images/logo.png">
+          <div>
+            <strong class="title">万里汇</strong>
+            <span class="description"></span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="/">
+          <img class="lozad" data-src="/images/logo.png">
+          <div>
+            <strong class="title">Payoneer派安盈</strong>
+            <span class="description"></span>
+          </div>
+        </a>
+      </div>
+    
+  </div>
+
+  <h4 id="course" class="anchor-tag">
+    <svg class="icon">
+      <use xlink:href="#svg-tag"/>
+    </svg>课程平台
+  </h4>
+  <div class="group">
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="/">
+          <img class="lozad" data-src="/images/logo.png">
+          <div>
+            <strong class="title">Udemy</strong>
+            <span class="description"></span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="/">
+          <img class="lozad" data-src="/images/logo.png">
+          <div>
+            <strong class="title">Teachable</strong>
+            <span class="description"></span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="/">
+          <img class="lozad" data-src="/images/logo.png">
+          <div>
+            <strong class="title">得到</strong>
+            <span class="description"></span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="/">
+          <img class="lozad" data-src="/images/logo.png">
+          <div>
+            <strong class="title">小报童</strong>
+            <span class="description"></span>
+          </div>
+        </a>
+      </div>
+    
+  </div>
+
+  <h4 id="depoy" class="anchor-tag">
+    <svg class="icon">
+      <use xlink:href="#svg-tag"/>
+    </svg>免费部署
+  </h4>
+  <div class="group">
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="/">
+          <img class="lozad" data-src="/images/logo.png">
+          <div>
+            <strong class="title">vercel</strong>
+            <span class="description"></span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="/">
+          <img class="lozad" data-src="/images/logo.png">
+          <div>
+            <strong class="title">cloudflare</strong>
+            <span class="description"></span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="/">
+          <img class="lozad" data-src="/images/logo.png">
+          <div>
+            <strong class="title">Netlify</strong>
+            <span class="description"></span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="/">
+          <img class="lozad" data-src="/images/logo.png">
+          <div>
+            <strong class="title">Supabase</strong>
+            <span class="description"></span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="/">
+          <img class="lozad" data-src="/images/logo.png">
+          <div>
+            <strong class="title">giscus</strong>
+            <span class="description"></span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="/">
+          <img class="lozad" data-src="/images/logo.png">
+          <div>
+            <strong class="title">Disqus</strong>
+            <span class="description"></span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="/">
+          <img class="lozad" data-src="/images/logo.png">
+          <div>
+            <strong class="title">Gitalk</strong>
+            <span class="description"></span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="/">
+          <img class="lozad" data-src="/images/logo.png">
+          <div>
+            <strong class="title">Utterances</strong>
+            <span class="description"></span>
+          </div>
+        </a>
+      </div>
+    
+  </div>
+
+  <h4 id="blog" class="anchor-tag">
+    <svg class="icon">
+      <use xlink:href="#svg-tag"/>
+    </svg>个人博客
+  </h4>
+  <div class="group">
+    
+  </div>
+
+  <h4 id="freeres" class="anchor-tag">
+    <svg class="icon">
+      <use xlink:href="#svg-tag"/>
+    </svg>免费资源
+  </h4>
+  <div class="group">
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="https://www.mixamo.com/">
+          <img class="lozad" data-src="https://www.mixamo.com/favicon.ico">
+          <div>
+            <strong class="title">mixamo</strong>
+            <span class="description">Mixamo‌是一个在线的3D角色动画服务，由Adobe公司推出</span>
+          </div>
+        </a>
+      </div>
+    
+  </div>
+
+  <h4 id="resshop" class="anchor-tag">
+    <svg class="icon">
+      <use xlink:href="#svg-tag"/>
+    </svg>游戏资源商店
+  </h4>
+  <div class="group">
+    
+  </div>
+
+  <h4 id="template" class="anchor-tag">
+    <svg class="icon">
+      <use xlink:href="#svg-tag"/>
+    </svg>模板
+  </h4>
+  <div class="group">
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="/">
+          <img class="lozad" data-src="/images/logo.png">
+          <div>
+            <strong class="title">codecanyon</strong>
+            <span class="description"></span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="/">
+          <img class="lozad" data-src="/images/logo.png">
+          <div>
+            <strong class="title">themeforest</strong>
+            <span class="description"></span>
+          </div>
+        </a>
+      </div>
+    
+  </div>
+
+  <h4 id="video" class="anchor-tag">
+    <svg class="icon">
+      <use xlink:href="#svg-tag"/>
+    </svg>放松一下
+  </h4>
+  <div class="group">
+    
+      <div class="card">
+        <a target="_blank" rel="noopener" href="https://www.iqiyi.com/">
+          <img class="lozad" data-src="https://www.iqiyi.com/favicon.ico">
+          <div>
+            <strong class="title">爱奇艺</strong>
+            <span class="description">爱奇艺</span>
+          </div>
+        </a>
+      </div>
+    
+  </div>
+
+  
+</main>
+    
+
+<footer class="flex-v-center">
+  <p>
+    © 2025
+  </p>
+</footer>
+
+  </div>
+
+  
+
+  <div id="go-top">
+    <i class="far fa-arrow-alt-circle-up"></i>
+  </div>
+
+  <div id="js-area">
+  
+<script src="/js/lozad.min.js"></script>
+
+</div>
+</body>
+
+</html>
