@@ -2,7 +2,7 @@
 // 提前执行 防止重复渲染闪烁
 
 const config = {
-  themeColor: 'light',
+  themeColor: 'dark',
   sidebarCollapsed: false, // 侧边栏折叠状态
   search: {
     searchCards: true,
