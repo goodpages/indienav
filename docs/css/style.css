@@ -237,6 +237,7 @@ input::-webkit-input-placeholder {
 }
 .sidebar-collapsed .main-menu .fa-angle-right:before {
   position: absolute;
+  display: none;
 }
 .sidebar-collapsed .main-menu > li:hover .menu-icon {
   display: none !important;
@@ -244,9 +245,6 @@ input::-webkit-input-placeholder {
 .sidebar-collapsed .main-menu > li:hover .menu-title {
   display: inline-block !important;
   margin-left: 0;
-}
-.sidebar-collapsed .main-menu > li:hover .fa-angle-right:before {
-  display: none;
 }
 .sidebar-collapsed .main-menu .has-sub > ul .menu-icon,
 .sidebar-collapsed .main-menu .has-sub > ul .menu-title {
