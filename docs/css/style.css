@@ -262,6 +262,7 @@ input::-webkit-input-placeholder {
   display: block;
 }
 .sidebar-collapsed .has-sub > ul {
+  display: none;
   position: absolute;
   top: 0;
   left: 100%;
@@ -269,13 +270,6 @@ input::-webkit-input-placeholder {
   background: var(--color-menu-bg);
   text-align: left;
   transition: none;
-}
-.sidebar-collapsed #busuanzi_value_site_pv,
-.sidebar-collapsed #busuanzi_value_site_uv {
-  position: absolute;
-  left: var(--menu-width);
-  padding: 0 8px;
-  background: var(--color-menu-bg);
 }
 .submit-tag {
   margin-top: auto;
